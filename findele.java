@@ -7,7 +7,8 @@ public class findele {
         for(int i=0;i<arr.length;i++){
             arr[i]=in.nextInt();
             if(arr[i]==14){
-                System.out.println("yes 14 is present in the array");
+                System.out.println("yes 14 is present in the array"+i);
+            
                 break;
 
             }
